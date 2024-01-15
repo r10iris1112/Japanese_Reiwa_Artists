@@ -1,0 +1,63 @@
+.profile{
+    width: 1000px;
+    height: 800px;
+    
+    background: url(https://wallpapers.com/images/hd/pastel-aesthetic-pictures-7m6fad3x90p3x6nz.jpg);
+}
+
+
+.text {
+    width: 600px;
+    display: none;
+    color: #111042;
+    border: double #111042 20px;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 0 0 0 30px;
+}
+
+
+.aimyon {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.aimyon:hover > .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 600px;
+}
+
+
+.yoasobi {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+
+.yoasobi:hover > .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+
+.ado {
+    position: absolute;
+    top: 620px;
+    left: 50px;
+}
+
+.ado:hover > .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    width: 600px;
+}
